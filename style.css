@@ -1,0 +1,270 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+}
+
+.navbar {
+  background: #003399;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 32px;
+}
+
+.logo {
+  height: 32px;
+  margin-right: 16px;
+}
+
+.shop-btn, .sign-in-btn {
+  background: #ffcc00;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-right input[type="text"] {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 8px;
+}
+
+.categories {
+  background: #4fc3f7;
+  padding: 32px 0;
+  text-align: center;
+}
+
+.categories h2 {
+  color: #222;
+  margin-bottom: 24px;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Assign a different image to each .cat-img using nth-child */
+.category:nth-child(1) .cat-img {
+  background-image: url('collector.jpeg');
+}
+.category:nth-child(2) .cat-img {
+  background-image: url('diecast.jpeg');
+}
+.category:nth-child(3) .cat-img {
+  background-image: url('monstertruck.jpeg');
+}
+.category:nth-child(4) .cat-img {
+  background-image: url('newarrivals.jpg');
+}
+.category:nth-child(5) .cat-img {
+  background-image: url('tracksets.jpg');
+}
+.category:nth-child(6) .cat-img {
+  background-image: url('constructiontoys.jpeg');
+}
+
+.category span {
+  font-weight: bold;
+  color: #222;
+}
+
+.themes {
+  background: #fff;
+  padding: 32px 0;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.themes h2 {
+  margin-left: 32px;
+}
+
+.theme-tags {
+  display: flex;
+  gap: 12px;
+  margin: 16px 32px;
+}
+
+.theme-tags span {
+  background: #f1f1f1;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.theme-tags .active {
+  background: #222;
+  color: #fff;
+}
+
+.product-grid {
+  display: flex;
+  gap: 24px;
+  margin: 24px 32px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  width: 180px;
+  padding: 16px;
+  text-align: center;
+}
+.prod-img {
+  width: 100%;
+  height: 100px;
+  background: #eee;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background-size: contain;      /* Show the whole image */
+  background-position: center;   /* Center the image */
+  background-repeat: no-repeat;  /* Prevent tiling */
+}
+
+.prod-title {
+  font-size: 1rem;
+  color: #333;
+}
+/* Footer */
+footer {
+  background: #fff;
+  padding: 48px 0 32px 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links div {
+  min-width: 180px;
+}
+
+.footer-links h4 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  color: #444;
+  margin-bottom: 8px;
+  font-size: 0.98rem;
+}
+.newsletter-signup-box {
+  background: #0064d2;
+  border-radius: 20px;
+  padding: 36px 40px 24px 40px;
+  max-width: 900px;
+  margin: 40px auto;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-content {
+  width: 100%;
+}
+
+.newsletter-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 30px 0 0 30px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  margin-right: -2px;
+}
+
+.newsletter-form button {
+  padding: 14px 32px;
+  border-radius: 0 30px 30px 0;
+  border: none;
+  background: #e60012;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.newsletter-privacy {
+  font-size: 0.95rem;
+  color: #fff;
+  margin-top: 0;
+}
+
+.newsletter-privacy a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.newsletter-logo {
+  max-width: 120px;
+  height: auto;
+  margin-right: 32px;
+  display: block;
+}
