@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hot Wheels Clone Website</title>
+  <title>Frontend Toy Store Website </title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,9 +23,57 @@
     </div>
   </nav>
 
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>HOT WHEELS</h1>
+      <p class="hero-tagline">UNLEASH THE THRILL OF SPEED</p>
+      <button class="cta-button">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Featured Products Grid -->
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="prod-img" style="background-image: url('toystore1.jpg');"></div>
+        <div class="prod-info">
+          <h3>Hot Wheels Premium Collection</h3>
+          <p class="price">$24.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="prod-img" style="background-image: url('toystore2.jpg');"></div>
+        <div class="prod-info">
+          <h3>Batman Collector Set</h3>
+          <p class="price">$19.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="prod-img" style="background-image: url('tracksets.jpg');"></div>
+        <div class="prod-info">
+          <h3>Ultimate Track Set</h3>
+          <p class="price">$49.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="prod-img" style="background-image: url('hw_collector.png');"></div>
+        <div class="prod-info">
+          <h3>Collector's Edition</h3>
+          <p class="price">$29.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Top Categories -->
   <section class="categories">
-    <h2>Shop by Top Categories</h2>
+    <marquee direction="down" scrollamount="1"><h2 style="text-align: center;">Shop by Top Categories</h2></marquee>
     <div class="category-list">
       <div class="category">
         <div class="cat-img"></div>
@@ -67,39 +115,39 @@
     </div>
     <div class="product-grid">
       <div class="product-card">
-        <div class="prod-img" style="background-image: url('hwtoy.jpg');"></div>
+        <div class="prod-img" style="background-image: url('toystore1.jpg');"></div>
         <div class="prod-title">Hot Wheels Car Culture Premium</div>
       </div>
       <div class="product-card">
-        <div class="prod-img" style="background-image: url('hwtoy2.jpg');"></div>
+        <div class="prod-img" style="background-image: url('toystore2.jpg');"></div>
         <div class="prod-title">Hot Wheels 1:50 Scale Batman</div>
       </div>
       <div class="product-card">
-        <div class="prod-img" style="background-image: url('hwtoy3.jpg');"></div>
+        <div class="prod-img" style="background-image: url('tracksets.jpg');"></div>
         <div class="prod-title">Hot Wheels Premium Collector</div>
       </div>
       <div class="product-card">
-        <div class="prod-img" style="background-image: url('hwtoy4.jpg');"></div>
+        <div class="prod-img" style="background-image: url('hw_collector.png');"></div>
         <div class="prod-title">Hot Wheels Boulevard Vehicle</div>
       </div>
       <div class="product-card">
-        <div class="prod-img" style="background-image: url('hwtoy5.jpg');"></div>
+        <div class="prod-img" style="background-image: url('toystore1.jpg');"></div>
         <div class="prod-title">Hot Wheels Car Culture Circuit</div>
       </div>
     </div>
   </section>
-<img src="pexels-robert-channing-347725469-16103245.jpg" alt="Mattel Newsletter Signup" style="width: 100%; height: 500px; object-fit: cover; display: block;">
+<img src="pexels-robert-channing-347725469-16103245.jpg" alt="Company Newsletter Signup" style="width: 100%; height: 500px;  display: block;">
 <!-- Newsletter Signup Box -->
 <div class="newsletter-signup-box">
   <img src="toylogo.jpg" alt="Company Logo" class="newsletter-logo">
   <div class="newsletter-content">
-    <h2 class="newsletter-title">Sign up to get the latest from Mattel!</h2>
+    <h2 class="newsletter-title">Sign up to get the latest from our Company!</h2>
     <form class="newsletter-form">
       <input type="email" placeholder="Enter your email" required>
       <button type="submit">Sign Up</button>
     </form>
     <p class="newsletter-privacy">
-      By clicking "Sign Up," I confirm I want to receive marketing emails from Mattel Brands. Read Mattel's
+      By clicking "Sign Up," I confirm I want to receive marketing emails from our Brands. 
       <a href="#">Privacy Statement</a>.
     </p>
   </div>
@@ -165,5 +213,6 @@
       </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
