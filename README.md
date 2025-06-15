@@ -3,10 +3,10 @@
 A work-in-progress frontend project for a fictional toy e-commerce site, originally inspired by the Hot Wheels site. Built to practice layout, design, and responsive structure using modern frontend tools.
 
 🚀 Live Demo  
-👉 https://e-commerce-toy-store-frontend-inspi.vercel.app/
+👉 https://shopzoomjoy.vercel.app/
 
 🛠 Tech Stack  
-- HTML/CSS
+- HTML/CSS/Javascript
 - Deployed with Vercel
 
 ## 📌 Status  
